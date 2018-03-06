@@ -11,4 +11,8 @@ public class Plane extends Air{
     public String getAirline() {
         return airline;
     }
+
+    public double getTicketSum() {
+        return getTravelCost() + this.tax;
+    }
 }

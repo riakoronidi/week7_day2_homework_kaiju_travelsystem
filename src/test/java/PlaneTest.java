@@ -15,4 +15,9 @@ public class PlaneTest {
     public void testPlaneCanMove() {
         assertEquals("Airline easyjet flies in the air", plane.move(plane.getAirline()));
     }
+
+    @Test
+    public void testCanReturnJourneyTicket() {
+        assertEquals(100, plane.getTicketSum(), 0.01);
+    }
 }

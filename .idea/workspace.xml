@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9caa619d-8809-49db-bf5b-56b23c34193f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Air.java" afterPath="$PROJECT_DIR$/src/main/java/Air.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" />
     </list>
@@ -63,10 +62,13 @@
       <file leaf-file-name="Plane.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
+                <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,12 +77,14 @@
       <file leaf-file-name="PlaneTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlaneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
                 <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -599,6 +603,26 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="PlaneTest.testCanReturnJourneyTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="homeworkTravel_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="METHOD_NAME" value="testCanReturnJourneyTicket" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="PlaneTest.testPlaneCanMove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="homeworkTravel_test" />
@@ -679,18 +703,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in homeworkTravel_test" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BoatTest.testBoatCanMove" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BusTest.testBusCanMove" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.PlaneTest.testPlaneCanMove" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PlaneTest.testCanReturnJourneyTicket" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in homeworkTravel_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PlaneTest.testPlaneCanMove" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BusTest.testBusCanMove" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BoatTest.testBoatCanMove" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PlaneTest.testCanReturnJourneyTicket" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PlaneTest.testPlaneCanMove" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BusTest.testBusCanMove" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BoatTest.testBoatCanMove" />
       </list>
     </recent_temporary>
   </component>
@@ -711,11 +737,17 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="All_in_homeworkTravel_test - 2018.03.06 at 20h 06m 39s.xml">
+      <configuration name="All in homeworkTravel_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="BoatTest_testBoatCanMove - 2018.03.06 at 19h 53m 43s.xml">
       <configuration name="BoatTest.testBoatCanMove" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BusTest_testBusCanMove - 2018.03.06 at 20h 00m 53s.xml">
       <configuration name="BusTest.testBusCanMove" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlaneTest_testCanReturnJourneyTicket - 2018.03.06 at 20h 09m 30s.xml">
+      <configuration name="PlaneTest.testCanReturnJourneyTicket" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PlaneTest_testPlaneCanMove - 2018.03.06 at 20h 06m 34s.xml">
       <configuration name="PlaneTest.testPlaneCanMove" configurationId="JUnit" />
@@ -922,22 +954,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
+            <element signature="e#272#273#0" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlaneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
           </folding>
         </state>
       </provider>
