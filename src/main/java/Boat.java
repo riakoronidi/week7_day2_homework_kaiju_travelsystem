@@ -1,4 +1,4 @@
-public class Boat {
+public class Boat extends Water {
 
     private String name;
 }

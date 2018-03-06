@@ -1,2 +1,2 @@
-public class Air {
+public class Air extends Vehicle implements ITravel {
 }

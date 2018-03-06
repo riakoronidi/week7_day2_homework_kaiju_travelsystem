@@ -1,2 +1,2 @@
-public class Earth {
+public class Earth extends Vehicle implements ITravel{
 }
