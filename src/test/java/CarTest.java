@@ -6,10 +6,16 @@ import static org.junit.Assert.assertEquals;
 public class CarTest {
 
     Car car;
+    Vehicle vehicle;
 
     @Before
     public void setUp() throws Exception {
         car = new Car(51.34, "Audi A3");
+    }
+
+    @Test
+    public void testCarCanMove() {
+        assertEquals("Audi A3 drives on the road", car.move(car.getModel()));
     }
 
     @Test

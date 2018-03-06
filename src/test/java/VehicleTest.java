@@ -18,6 +18,8 @@ public class VehicleTest {
         bus = new Bus(2.70, "B12");
         boat = new Boat(12.50,"Ikaria");
         traveller = new Traveller("Ria", 100.00);
+        car = new Car(51.34, "Audi A3");
+        plane = new Plane(80.96, "easyjet", 19.04);
     }
 
     @Test

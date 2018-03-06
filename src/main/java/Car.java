@@ -7,6 +7,9 @@ public class Car extends Earth {
         this.model = model;
     }
 
+    public String getModel() {
+        return model;
+    }
 
     public String getPetrol() {
         return "Petrol for this journey cost £" + getTravelCost();

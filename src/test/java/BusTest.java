@@ -14,6 +14,7 @@ public class BusTest {
         bus = new Bus(2.70, "B12");
     }
 
+
     @Test
     public void testBusCanMove() {
         assertEquals("Bus B12 goes through city centre", bus.move(bus.getNumber()));
