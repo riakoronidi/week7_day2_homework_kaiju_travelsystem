@@ -6,6 +6,6 @@ public class Air extends Vehicle implements ITravel {
 
     @Override
     public String move(String movement) {
-        return movement + " flies in the air";
+        return "Airline " + movement + " flies in the air";
     }
 }
