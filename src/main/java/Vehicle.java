@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 
-public abstract class Vehicle {
+public class Vehicle {
 
     private double travelCost;
     private ArrayList<ITravel> vehicles;
+    private ArrayList<Traveller> travellers;
 
     public Vehicle(double travelCost) {
         this.travelCost = travelCost;
@@ -16,5 +17,9 @@ public abstract class Vehicle {
 
     public void move(ITravel vehicle){
         vehicles.add(vehicle);
+    }
+
+    public int vehicleCount(){
+        return vehicles.size();
     }
 }

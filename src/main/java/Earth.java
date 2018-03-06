@@ -1,4 +1,4 @@
-public class Earth extends Vehicle implements ITravel{
+public abstract class Earth extends Vehicle implements ITravel{
 
     public Earth(double travelCost) {
         super(travelCost);
@@ -8,4 +8,8 @@ public class Earth extends Vehicle implements ITravel{
     public String move(String movement) {
         return movement + " drives on the road";
     }
+
+
+
+
 }

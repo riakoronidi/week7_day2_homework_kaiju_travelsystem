@@ -1,4 +1,4 @@
-public class Air extends Vehicle implements ITravel {
+public abstract class Air extends Vehicle implements ITravel {
 
     public Air(double travelCost) {
         super(travelCost);
@@ -8,4 +8,6 @@ public class Air extends Vehicle implements ITravel {
     public String move(String movement) {
         return "Airline " + movement + " flies in the air";
     }
+
+
 }

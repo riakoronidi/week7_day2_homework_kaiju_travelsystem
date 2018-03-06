@@ -6,6 +6,8 @@ import static org.junit.Assert.assertEquals;
 public class BusTest {
 
     Bus bus;
+    Vehicle vehicle;
+
 
     @Before
     public void setUp() throws Exception {
@@ -17,4 +19,6 @@ public class BusTest {
         assertEquals("Bus B12 goes through city centre", bus.move(bus.getNumber()));
 
     }
+
+
 }
