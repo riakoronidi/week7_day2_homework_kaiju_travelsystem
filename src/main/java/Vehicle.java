@@ -13,4 +13,8 @@ public abstract class Vehicle {
     public double getTravelCost() {
         return travelCost;
     }
+
+    public void move(ITravel vehicle){
+        vehicles.add(vehicle);
+    }
 }
