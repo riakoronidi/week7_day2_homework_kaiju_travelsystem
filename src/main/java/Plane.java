@@ -13,6 +13,7 @@ public class Plane extends Air{
     }
 
     public double getTicketSum() {
+//        sum of ticket cost is the travel cost + tax
         return getTravelCost() + this.tax;
     }
 }

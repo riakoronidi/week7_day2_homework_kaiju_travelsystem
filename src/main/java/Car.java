@@ -6,4 +6,9 @@ public class Car extends Earth {
         super(travelCost);
         this.model = model;
     }
+
+
+    public String getPetrol() {
+        return "Petrol for this journey cost £" + getTravelCost();
+    }
 }
