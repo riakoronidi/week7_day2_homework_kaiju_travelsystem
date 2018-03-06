@@ -15,4 +15,6 @@ public class Bus extends Earth{
     public String move(String movement) {
         return "Bus " + movement + " goes through city centre";
     }
+
+
 }

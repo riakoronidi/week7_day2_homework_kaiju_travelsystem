@@ -9,6 +9,7 @@ public class Vehicle {
     public Vehicle(double travelCost) {
         this.travelCost = travelCost;
         this.vehicles = new ArrayList<>();
+        this.travellers = new ArrayList<>();
     }
 
     public double getTravelCost() {
@@ -21,5 +22,13 @@ public class Vehicle {
 
     public int vehicleCount(){
         return vehicles.size();
+    }
+
+    public int travellerCount(){
+        return travellers.size();
+    }
+
+    public void addTraveller(Traveller traveller){
+        travellers.add(traveller);
     }
 }
